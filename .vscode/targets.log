@@ -11,7 +11,9 @@ make: *** No rule to make target `all'.  Stop.
 
 
 # Make data base, printed on Wed Jul  6 22:04:17 2022
+
 # Variables
+
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # automatic
@@ -141,11 +143,17 @@ LANG = C
 VSCODE_PID = 12147
 # variable set hash-table stats:
 # Load=63/1024=6%, Rehash=0, Collisions=1/87=1%
+
 # Pattern-specific Variable Values
+
 # No pattern-specific variable values.
+
 # Directories
+
 # . (device 16777223, inode 4354502): 18 files, no impossibilities.
+
 # 18 files, no impossibilities in 1 directories.
+
 # Implicit Rules
 
 # No implicit rules.
@@ -158,6 +166,7 @@ all:
 #  File has not been updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
 test-coverage:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -184,6 +193,7 @@ Makefile:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
+
 publish:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
